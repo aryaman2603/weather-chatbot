@@ -1,0 +1,19 @@
+# Flutter
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+pubspec.lock
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+*.sqlite3
+
+# General
+.DS_Store
+*.log
