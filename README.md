@@ -23,13 +23,14 @@ A full-stack Flutter application that combines real-time weather updates and an 
 weather-chatbot/
 ├── backend/                  # FastAPI app with Gemini integration
 │   ├── main.py              # FastAPI server with chat endpoint
-│   ├── api_fetch.py         # Weather API utilities
+│   ├── check_models.py        
 │   └── .env                 # API keys
+│   └── .requirements.txt
 │
 └── weather_app_tutorial/    # Flutter frontend
     ├── lib/
     │   ├── models/          # Data models
-    │   ├── viewmodel/       # State management logic
+    │   ├── providers/       # State management logic
     │   ├── views/           # UI screens for each tab
     │   ├── services/        # API calling logic
     │   └── main.dart
