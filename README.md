@@ -19,7 +19,7 @@ A full-stack Flutter application that combines real-time weather updates and an 
 
 ## 🗂️ Project Structure
 
-
+```bash
 weather-chatbot/
 ├── backend/                  # FastAPI app with Gemini integration
 │   ├── main.py              # FastAPI server with chat endpoint
